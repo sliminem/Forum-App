@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dashboard"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/but_directions"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="159dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/gmap_32x32"/>
+    <Button
+        android:id="@+id/but_facility"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/but_directions"
+        android:layout_alignTop="@+id/but_directions"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/but_directions"
+        android:background="@drawable/restaurant_blue_128"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_directions"
+        android:layout_below="@+id/but_facility"
+        android:text="@string/but_directions"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_facility"
+        android:layout_below="@+id/but_facility"
+        android:text="@string/but_facilities"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/but_weather"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/partly_cloudy" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_weather"
+        android:layout_below="@+id/but_weather"
+        android:layout_marginLeft="20dp"
+        android:text="@string/but_weather"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/but_map"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/but_weather"
+        android:background="@drawable/map_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_map"
+        android:layout_below="@+id/but_map"
+        android:text="@string/map_of_are"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

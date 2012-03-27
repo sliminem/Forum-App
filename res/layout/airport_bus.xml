@@ -1,0 +1,18 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/relativeLayout1" android:background="@drawable/airlink_bus">
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:text="@string/ticket_price" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginBottom="14dp" android:layout_marginLeft="10dp"></TextView>
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:text="@string/bus_info" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_above="@+id/textView2" android:layout_alignParentLeft="true" android:layout_marginBottom="15dp" android:layout_marginLeft="10dp"></TextView>
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:autoLink="web" android:text="@string/airlink_www" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></TextView>
+
+        <TextView
+            android:id="@+id/waverly_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/textView3"
+            android:paddingLeft="6dp"
+            android:text="@string/waverly_link_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+    </RelativeLayout>

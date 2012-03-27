@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:id="@+id/chk_hotels" android:text="@string/box_hotels"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/chk_hotels" android:layout_alignLeft="@+id/chk_hotels" android:id="@+id/chk_restaurants" android:text="@string/box_restaurants"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/chk_restaurants" android:layout_alignLeft="@+id/chk_restaurants" android:id="@+id/chk_shops" android:text="@string/box_shops"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/chk_shops" android:layout_alignLeft="@+id/chk_shops" android:id="@+id/chk_cafes" android:text="@string/box_cafes"></CheckBox>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/select_facilities" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="22dp"></TextView>
+    <Spinner android:id="@+id/spinner_sort" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/chk_cafes" android:layout_toRightOf="@+id/chk_hotels" android:layout_marginTop="24dp" android:layout_alignRight="@+id/textView1"></Spinner>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/sort_by" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_alignTop="@+id/spinner_sort" android:layout_alignLeft="@+id/chk_cafes"></TextView>
+
+    <Button
+        android:id="@+id/but_show_facilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_sort"
+        android:layout_marginTop="62dp"
+        android:text="@string/but_show_facilities" />
+
+</RelativeLayout>

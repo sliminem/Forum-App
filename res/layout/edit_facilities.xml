@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+	</LinearLayout>
+	<Button android:layout_width="wrap_content" android:id="@+id/confirm" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:text="@string/but_confirm"></Button>
+	<EditText android:layout_width="match_parent" android:hint="@string/fac_name" android:layout_height="wrap_content" android:id="@+id/name" android:scrollbars="vertical" android:layout_below="@+id/linearLayout1" android:layout_alignParentLeft="true"></EditText>
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/name" android:layout_alignParentLeft="true" android:text="@string/fac_type"></TextView>
+	<Spinner android:prompt="@string/fac_type" android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/spinner2" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"></Spinner>
+
+	<Spinner
+	    android:id="@+id/spinner1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/spinner2"
+	    android:layout_toRightOf="@+id/edit_phone"
+	    android:prompt="@string/fac_mins" >
+
+</Spinner>
+	<TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/name" android:layout_alignLeft="@+id/spinner1" android:text="@string/minutes"></TextView>
+	<EditText android:layout_width="match_parent" android:hint="" android:layout_height="wrap_content" android:id="@+id/desc" android:scrollbars="vertical" android:layout_below="@+id/spinner2" android:layout_alignParentLeft="true" android:layout_marginTop="19dp"></EditText>
+	<RatingBar android:layout_width="wrap_content" android:id="@+id/edit_rating" android:stepSize="1.0" android:layout_height="wrap_content" android:numStars="5" android:layout_below="@+id/desc" android:layout_centerHorizontal="true"></RatingBar>
+	<EditText android:layout_width="wrap_content" android:hint="@string/phone_number" android:layout_height="wrap_content" android:inputType="phone" android:id="@+id/edit_phone" android:layout_below="@+id/edit_addr" android:layout_centerHorizontal="true" android:phoneNumber="true"></EditText>
+	<EditText android:layout_width="wrap_content" android:hint="@string/website" android:layout_height="wrap_content" android:inputType="textWebEditText" android:id="@+id/edit_web" android:layout_below="@+id/edit_phone" android:layout_centerHorizontal="true"></EditText>
+	<EditText android:layout_width="wrap_content" android:hint="@string/address" android:layout_height="wrap_content" android:inputType="textPostalAddress" android:id="@+id/edit_addr" android:layout_below="@+id/edit_rating" android:layout_centerHorizontal="true">
+		<requestFocus></requestFocus>
+	</EditText>
+</RelativeLayout>

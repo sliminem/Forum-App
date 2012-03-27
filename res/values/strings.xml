@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fapp</string>
+    <string name="but_directions">Get to the Forum</string>
+    <string name="but_facilities">Near the Forum</string>
+    <string name="but_weather">Weather</string>
+    <string name="but_info">    Information</string>
+    <string name="select_facilities">Please select the facilities you need</string>
+    <string name="box_hotels">Hotels</string>
+    <string name="box_restaurants">Restaurants</string>
+    <string name="box_shops">Shops</string>
+    <string name="box_cafes">Cafes</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="menu_edit">Edit Item</string>    
+    <string-array name="sort_by">
+        <item>Distance</item>
+        <item>Rating</item>
+    </string-array>
+    <string name="no_facilities">There are no facilities to display.</string>
+    <string name="rating">Rating:</string>
+    <string name="upto">Up to </string>
+    <string name="minutes"> minutes</string>
+    <string name="fac_type">Type:</string>
+    <string name="fac_name">Name:</string>
+    <string name="fac_desc">Description:</string>
+    <string name="fac_mins">Maximum walking distance:</string>
+    <string name="but_confirm">Confirm</string>
+    <string-array name="type_array">
+        <item>Hotels</item>
+        <item>Restaurants</item>
+        <item>Shops</item>
+        <item>Cafes</item>
+    </string-array>
+    <string-array name="spinner_array">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+        <string name="map_of_are">IF on the map</string>
+        <string name="today">Today:</string>
+        <string name="forecast">Forecast:</string>
+    <string name="welcome_msg">Welcome to Edinburgh!</string>
+    <string name="where_are_you">Where are you?</string>
+    <string name="central">Central Area / Informatics Forum</string>
+    <string name="airport">Edinburgh Airport</string>
+    <string name="waverly">Edinburgh Waverly Station</string>
+    <string name="type_travel">I would like to travel by:</string>
+    <string name="bus">Bus</string>
+    <string name="taxi">TAXI</string>
+    <string name="warning">Note that you will need to switch buses or walk for about 10 minutes if you choose to travel by bus.</string>
+    <string name="welcome_central">You are in the Central Area</string>
+    <string name="view_a_map">View a map ot the area</string>
+    <string name="view_hotels">View a list of hotels and eateries</string>
+    <string name="welcome_waverly">You are at Wavery Station</string>
+    <string name="walk">Walk</string>
+    <string name="edi_taxis">Edinburgh Taxis</string>
+    <string name="city_cabs_edi">City Cabs Edinburgh</string>
+    <string name="city_cabs_phone">01312281211</string>
+    <string name="central_taxis_edi">Central Taxis Edinburgh</string>
+    <string name="central_taxis_num">01312292468</string>
+    <string name="forum_address">10 Crichton Street, Edinburgh, Midlothian EH8 9AB</string>
+    <string name="bus_info">Airlink A100 bus to City Centre departs from stand 19, just outside UK arrivals. The journey lasts approximately 30 minutes. Your destination is </string>
+    <string name="ticket_price">Tickets cost £3.50 for one way and £6.00 for a return ticket.</string>
+    <string name="airlink_www">http://www.flybybus.com</string>
+    <string name="waverly_link_text"><u>Waverly Bridge.</u></string>
+    <string name="but_show_facilities">Show List</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="website">Website:</string>
+    <string name="address">Address:</string>
+    <string name="note_taxi">Note that there are taxis, just outside Edinburgh Airport and Waverly Station.</string>
+    <string name="bus_from_waverly">Buses 41, 42 and 67 all stop at Waverly Bridge and at Buccleuch Terrace which is exactly next to the Forum. The journey is about 6 minutes long.</string>
+        
+</resources>
